@@ -1,0 +1,54 @@
+{
+  "newsletter-form": {
+      "children": [
+        "rich-text",
+        "newsletter-input-name",
+        "newsletter-input-email",
+        "newsletter-input-phone",
+        "newsletter-checkbox-confirmation",
+        "newsletter-submit"
+      ],
+      "props": {
+        "blockClass": "form"
+      }
+    },
+
+    "rich-text": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "# INSCREVA-SE PARA RECEBER 10% DE DESCONTO NA PRIMEIRA COMPRA!",
+        "blockClass": "help-message"
+      }
+    },
+
+    "newsletter-input-name": {
+        "props": {
+            "placeholderText": "Nome"
+        }
+    },
+
+    "newsletter-input-email": {
+        "props": {
+            "placeholderText": "E-mail"
+        }
+    },
+
+    "newsletter-input-phone": {
+        "props": {
+            "placeholderText": "Celular"
+        }
+    }, 
+
+    "newsletter-checkbox-confirmation": {
+      "props": {
+          "checkboxLabel": "Concordo em receber e-mails promocionais"
+      }   
+    },
+
+    "newsletter-submit": {
+      "props": {
+          "submitButtonLabel": "Inscrever-se"
+      }   
+    }
+}

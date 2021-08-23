@@ -1,0 +1,186 @@
+.summaryItemLabel {
+  color: white;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  color: white;
+}
+:global(.vtex-checkout-summary-0-x-price) {
+  color: green;
+}
+
+.price {
+  background-color: blanchedalmond;
+}
+
+.flexRowContent{
+  background-color: #303030;
+}
+.flexRowContent--main-header {
+  background-color: #212121;
+  height: 85px;
+}
+
+.flexCol--product :global(.vtex-button) {
+  background-color: #59ff00;
+  margin-left: 10px;
+  color: #212121;
+}
+.flexCol--product :global(.vtex-button):hover {
+  background-color: rgba(89, 255, 0, 0.5);
+}
+
+.price {
+  color: #59ff00;
+}
+
+.deleteIcon {
+  color: red;
+}
+
+.sellingPrice {
+  color: #59ff00;
+  padding-left: 20px;
+  font-size: 0.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+:global(.vtex-product-price-1-x-sellingPriceValue) {
+  font-size: 1.5rem;
+}
+
+.productBrand {
+  color: aliceblue;
+  text-align: right;
+  font-size: 20px;
+  text-transform: capitalize;
+ }
+.element--produto{   
+  background-color: #303030;
+  height: 500px;  
+}
+:global(.vtex-product-summary-2-x-element) {
+  justify-content: space-around;
+}
+
+.sellingPrice {
+  color: #59ff00;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: right;
+}  
+
+.galleryItem :global(.vtex-product-summary-2-x-container){
+  background-color: #424242;
+  width: 350px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.sliderLayoutContainer{
+  background-color: #424242;
+}
+.sliderArrows {
+  color: white;
+}
+:global(.vtex-slider-layout-0-x-sliderLeftArrow){
+  position: absolute;
+  bottom: -40px;
+  left: 350px;
+}
+:global(.vtex-slider-layout-0-x-sliderRightArrow){
+  position: absolute;
+  bottom: -40px;
+  right: 350px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){
+  position: absolute;
+  bottom: -40px;
+}
+
+.slideChildrenContainer {
+  margin-top: 20px;
+}
+
+:global(.vtex-slider-layout-0-x-slide) {
+  background-color: #303030;
+}
+
+.wrapper--footer .container {
+  position: fixed;
+  background-color: #424242;
+}
+
+.figure{
+  opacity: 0;
+}
+.carouselGaleryCursor{
+  transform: translate(-35px, 0px);
+}
+
+.searchBarIcon {
+  color: white;
+}
+.searchBarContainer :global(.vtex-input-prefix__group){
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 1px;
+
+  border-color: white;
+
+  transition: .3s;
+
+}
+.searchBarContainer :global(.vtex-input-prefix__group):hover{
+  border-color: #59ff00;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+  color: white;
+  background-color: #212121;
+}
+.searchBarContainer :global(.vtex-input__suffix){
+  background-color: #212121;
+}
+
+.listContainer {
+  background-color:#303030;
+  box-shadow: 0px 10px 13px -7px #131313, 0px 11px 33px 20px rgba(0,0,0,0);
+}
+.listContainer :global(.vtex-tab-layout-0-x-listItem) {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.listContainer :global(.vtex-tab-layout-0-x-listItemActive) {
+  background-color: None;
+}
+.listItem :global(.vtex-button){
+  color: white;
+  background-color: None;
+  
+}
+
+.listItemActive{
+  box-sizing: border-box;
+  border-color: none;
+  border-bottom: 2px solid #59ff00;
+  cursor: default;
+}
+.listItemActive :global(.vtex-button):hover{
+  border-color: rgba(0,0,0,0);
+  background-color: #212121;
+}
+.listItemActive :global(.vtex-button):focus{
+  border-color: rgba(0,0,0,0);
+  background-color: #212121;
+}
+.listItemActive :global(.vtex-button__label){
+  color: #59ff00;
+}
